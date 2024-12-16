@@ -1,0 +1,14 @@
+{
+	"name": "ubuntu + pnpm + node",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"UBUNTU_VERSION": "20.04" // defaults to latest
+			,
+			"PNPM_VERSION": "9.15.0" // no default set
+			,
+			"NODE_VERSION": "22.12" // defaults to lts
+		}
+	},
+	"remoteUser": "vscode"
+}
